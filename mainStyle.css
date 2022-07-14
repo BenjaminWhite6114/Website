@@ -4,7 +4,8 @@
 body{
    background-color: #eb94ff;
 }   
-#tab-menu{
+.button{
+   border-radius: 10px;
    background-color: #f6d1ff;
 }   
 #main{
