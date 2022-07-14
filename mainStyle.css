@@ -6,5 +6,8 @@ body{
 }   
 #tab-menu{
    border-style: dotted;
-   border-color: yellow;
+   border-color: #f6d1ff;
+}   
+#main{
+   background-color: #f6d1ff;  
 }   
