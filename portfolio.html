@@ -3,6 +3,12 @@
   <head>
     <title>Ben White: Portfolio</title>
     <link href = "./mainStyle.css" rel = "stylesheet">
+    <!-- Load React API -->
+    <script src= "https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <!-- Load React DOM-->
+    <script src= "https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+    <!-- Load Babel Compiler -->
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
   </head>
   <body>
     <div id = "tab-menu">
@@ -19,6 +25,9 @@
         <form>
           <input type = "text" id = "calcInput"><br>
           <input type = "submit" id = "calcSumbit">
+          <script type = "text/babel">
+            document.getElementById("calcOut").innerHTML = "Hello World!";
+          </script>
         </form>
       </div>
     </div>
