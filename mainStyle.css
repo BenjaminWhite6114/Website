@@ -2,7 +2,7 @@
    font-family: sans-serif; 
 }
 body{
-   background-image: url("../crabwithfish.jpg");
+   background-image: url("./crabwithfish.jpg");
    position: sticky;
    top: 50%;
 }   
