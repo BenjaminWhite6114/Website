@@ -24,9 +24,12 @@
         <h2 id = "calcOut">0</h2>
         <form>
           <input type = "text" id = "calcInput"><br>
-          <input type = "submit" id = "calcSumbit">
+          <input type = "button" id = "calcSumbit" onclick = "calculate()">
           <script type = "text/babel">
-            document.getElementById("calcOut").innerHTML = "888";
+            const calculate = () => {
+            let input = document.getElementById("calcInput"); 
+            document.getElementById("calcOut").innerHTML = input;
+            }
           </script>
         </form>
       </div>
