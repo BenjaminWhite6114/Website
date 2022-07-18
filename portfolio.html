@@ -20,16 +20,18 @@
       <h1>Portfolio</h1>
       <p>This is where I will showcase my completed projects, which will surely be stupendious acomplishments of the highest order.</p>
       <div id = "calculator>
+                 <h1 id = "testical">You shouldn't see this</h1>
         <h1>Calculator</h1>
         <h2 id = "calcOut">0</h2>
         <form>
           <input type = "text" id = "calcInput"><br>
-          <input type = "button" id = "calcSumbit" onclick = "calculate()">
+          <input type = "button" id = "calcSumbit" onclick = "calculate()" value = "calculate">
           <script type = "text/babel">
             const calculate = () => {
             let input = document.getElementById("calcInput"); 
             document.getElementById("calcOut").innerHTML = input;
             }
+            document.getElementById("testical").innerHTML = "Hey, it worked!";
           </script>
         </form>
       </div>
