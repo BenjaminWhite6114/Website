@@ -2,7 +2,9 @@
    font-family: sans-serif; 
 }
 body{
-   background-color: #eb94ff;
+   background-image: "./crabwithfish.jpg";
+   position: sticky;
+   top: 50%;
 }   
 #tab-menu{
    border-style: solid;
@@ -16,5 +18,5 @@ body{
 }   
 #main{
    border-radius: 10px;
-   background-color: #f6d1ff;  
+   background-color: #f6d1ff; 
 }   
