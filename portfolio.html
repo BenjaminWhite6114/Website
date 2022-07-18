@@ -28,7 +28,7 @@
           <input type = "button" id = "calcSumbit" onclick = "calculate()" value = "calculate">
           <script type="text/babel">
             const calculate = () => {
-            let input = document.getElementById("calcInput"); 
+            let input = document.getElementById("calcInput").value; 
             document.getElementById("calcOut").innerHTML = input;
             }
             document.getElementById("testical").innerHTML = "Hey, it worked!";
